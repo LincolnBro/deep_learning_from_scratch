@@ -4,7 +4,7 @@ import numpy as np
 sys.path.append(os.pardir)
 from dataset.mnist import load_mnist
 from PIL import Image
-from common.act_func import sigmoid, softmax
+from common.functions import sigmoid, softmax
 
 def get_data():
     (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=True)

@@ -2,7 +2,7 @@ import numpy as np
 import sys, os
 sys.path.append(os.pardir)
 from dataset.mnist import load_mnist
-from common.act_func import identity_function, sigmoid, identity_function
+from common.functions import identity_function, sigmoid, identity_function
 
 def init_network():
     network = {}
